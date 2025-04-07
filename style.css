@@ -178,3 +178,52 @@ header {
     }
   }
 }
+
+/* Workout Section */
+.workout {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  height: 100vh;
+  gap: 10px;
+
+  .exercises-main__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+
+    h2 {
+      font-size: 20px;
+      text-transform: uppercase;
+      color: #fb8500;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 14px;
+    }
+  }
+
+  .exercises-main__right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .img-cover {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      img {
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
