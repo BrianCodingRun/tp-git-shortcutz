@@ -314,3 +314,19 @@ header {
     }
   }
 }
+
+/* Footer */
+
+footer {
+  background: #fb8500;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .copyright {
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+}
