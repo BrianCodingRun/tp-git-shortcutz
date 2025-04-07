@@ -38,6 +38,10 @@ header {
       gap: 20px;
       align-items: center;
 
+      @media screen and (max-width: 768px) {
+        display: none;
+      }
+
       li {
         font-size: 12px;
         text-transform: uppercase;
@@ -49,11 +53,14 @@ header {
 
 /* Hero Section */
 .hero-main {
-  height: 100vh;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 10px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 
   .hero-main__left {
     display: flex;
@@ -135,8 +142,11 @@ header {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  height: 100vh;
   gap: 10px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 
   .diet-main__left {
     display: flex;
@@ -187,6 +197,10 @@ header {
   flex-wrap: wrap;
   gap: 10px;
 
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
+
   .exercises-main__left {
     display: flex;
     flex-direction: column;
@@ -235,6 +249,10 @@ header {
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 10px;
+
+  @media screen and (max-width: 768px) {
+    flex-direction: column;
+  }
 
   .contact-main__left {
     display: flex;
